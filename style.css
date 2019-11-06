@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette:100,200,300,400,500,600,700|Pacifico:100,200,300,400,500,600,700');
+
+
+/*------------------------------------------------body background*/
+
+body {
+    background-image: url("./Media/paws.jpg");
+    background-size: 40%;
+    line-height: 2.5;
+    text-align: center;
+}
+
+
+
+
+/*------------------------------------------------!optional!Homepage,photo,a*/
+
+/*.logo {
+    background: url("./Media/man.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    width: 90%;
+}*/
+
+/*------------------------------------------------optionalHomepage,photo,a*/
+
+.homepage a {
+    text-decoration: none;
+    height: 100%;
+}
+
+h1 {
+    font-family: "Courgette", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #800000;
+    margin: 20px;
+}
+
+.introduction {
+    height: 90%;
+    width: 90%;
+}
+
+
+.img-50 {
+    margin-left: 25px;
+    width: 100%;
+    float: none;
+    border-style: groove;
+    border-radius: 50%;
+}
+
+
+
+/*--------------------------------------------texts,p*/
+
+.container-title {
+    text-align: center;
+    margin: 35px;
+    font-family: "Courgette", sans-serif;
+
+}
+
+.dog-name {
+    font-family: "Courgette", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin-left: 25px;
+    text-shadow: -3px 2px 0.5px #ffefd5;
+
+}
+
+/*----------------------------------------about us section*/
+
+.about {
+    margin: 25px;
+    font-family: "Pacifico", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #008000;
+}
+
+h3 {
+    text-shadow: -3px 2px 0.5px #ffefd5;
+}
+
+/*===============================border-line*/
+
+.end {
+    height: 5px;
+    width: 80vw;
+    border: 0;
+    background-color: #fff;
+}
