@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette:100,200,300,400,500,600,700|Pacifico:100,200,300,400,500,600,700');
 
-
 /*------------------------------------------------body background*/
 
 body {
@@ -12,17 +11,71 @@ body {
 
 
 
+/*------------------------------------------------Navbar*/
 
-/*------------------------------------------------!optional!Homepage,photo,a*/
+.navbar-light {
+    color: #696969;
+    font-family: 'Courgette', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+.dropdown-menu {
+    background-color: #90ee90;
+    font-weight: 600;
+    font-size: 20px;
+}
+.dropdown-menu ul li:hover {
+    background-color: #777;
+}
 
-/*.logo {
-    background: url("./Media/man.jpg");
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
-    width: 90%;
-}*/
+.ml-auto {
+    background-color: #90ee90;
+}
+.navbar i {
+    font-size: 35px;
+    padding-top: 0;
+    padding-bottom: 5px;
+    padding-right: 2px;
+    margin: 5px;
+    color: #777;
+}
+
+.navbar-brand:hover {
+    background-color: #90ee90;
+    padding: 5px;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+}
+
+@media (max-width: 767px) {
+    .ml-auto:hover {
+        background-color: #777;
+    }
+    .dropdown-item:hover {
+        background-color: #777;
+    }
+    #navbarNavDropdown {
+        background-color: #777;
+    }
+
+    #navbarNavDropdown ul li:hover {
+        background-color: #90ee90;
+    }
+
+}
+@media (max-width: 3800px) {
+    .dropdown-menu{
+       background-color: #90ee90;
+       color: #777;
+    }
+    .dropdown-item:hover {
+    background-color: #777;
+    color: #90ee90;
+}
+
+}
+
 
 /*------------------------------------------------optionalHomepage,photo,a*/
 
@@ -61,7 +114,13 @@ h1 {
     text-align: center;
     margin: 35px;
     font-family: "Courgette", sans-serif;
+    color: #9400d3;
+}
 
+.container-title i {
+    font-size: 30px;
+    padding: 5px;
+    margin: 5px;
 }
 
 .dog-name {
@@ -95,4 +154,28 @@ h3 {
     width: 80vw;
     border: 0;
     background-color: #fff;
+}
+
+/*----------------------------------------newsletter button*/
+
+.btn-color {
+    background-color: #90ee90;
+    font-family: "Pacifico", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: 20px 25px;
+    padding-left: 4px;
+}
+
+.btn-color:hover {
+    color: #90ee90;
+    background-color: #777;
+}
+
+/*----------------------------------------footer*/
+
+.footer {
+    background-color: rgba(100, 170, 80, .5);
+    margin: 15px 2px 15px 0;
+    padding-top: 15px;
 }
