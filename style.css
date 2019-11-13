@@ -9,21 +9,41 @@ body {
     text-align: center;
 }
 
+h1 {
+    font-family: "Courgette", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #800000;
+    margin: 20px;
+}
 
+.capitalise {
+    text-transform: capitalize;
+}
 
 /*------------------------------------------------Navbar*/
 
 .navbar-light {
-    color: #696969;
     font-family: 'Courgette', sans-serif;
     font-weight: 600;
     font-size: 25px;
 }
+.nav-link{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.nav-link:hover {
+    background-color: #90ee90;
+    border-radius: 30%; 
+}
+
 .dropdown-menu {
     background-color: #90ee90;
     font-weight: 600;
     font-size: 20px;
+    border-radius: 10%;
 }
+
 .dropdown-menu ul li:hover {
     background-color: #777;
 }
@@ -31,6 +51,7 @@ body {
 .ml-auto {
     background-color: #90ee90;
 }
+
 .navbar i {
     font-size: 35px;
     padding-top: 0;
@@ -42,18 +63,17 @@ body {
 
 .navbar-brand:hover {
     background-color: #90ee90;
-    padding: 5px;
-    margin: 0;
-    top: 0;
-    bottom: 0;
+    border-radius: 30px;
 }
 
-@media (max-width: 767px) {
+
+@media (max-width: 300px) {
     .ml-auto:hover {
         background-color: #777;
     }
     .dropdown-item:hover {
         background-color: #777;
+
     }
     #navbarNavDropdown {
         background-color: #777;
@@ -62,34 +82,33 @@ body {
     #navbarNavDropdown ul li:hover {
         background-color: #90ee90;
     }
+    .social-links,.social-title {
+        font-size: 30px;
+    }
 
 }
+
 @media (max-width: 3800px) {
-    .dropdown-menu{
-       background-color: #90ee90;
-       color: #777;
+    .dropdown-menu {
+        background-color: #90ee90;
+        color: #777;
     }
     .dropdown-item:hover {
-    background-color: #777;
-    color: #90ee90;
+        background-color: #777;
+        color: #90ee90;
+    }
+    .navbar-expand-sm {
+        flex-flow: row wrap;
+        justify-content: flex-start;
+    }
 }
 
-}
 
-
-/*------------------------------------------------optionalHomepage,photo,a*/
+/*------------------------------------------------Homepage*/
 
 .homepage a {
     text-decoration: none;
     height: 100%;
-}
-
-h1 {
-    font-family: "Courgette", sans-serif;
-    font-weight: 700;
-    font-size: 45px;
-    color: #800000;
-    margin: 20px;
 }
 
 .introduction {
@@ -143,7 +162,7 @@ h1 {
     color: #008000;
 }
 
-h3 {
+.about-title {
     text-shadow: -3px 2px 0.5px #ffefd5;
 }
 
@@ -165,6 +184,7 @@ h3 {
     letter-spacing: 2px;
     margin: 20px 25px;
     padding-left: 4px;
+    border-radius: 50px;
 }
 
 .btn-color:hover {
@@ -172,10 +192,74 @@ h3 {
     background-color: #777;
 }
 
+/*----------------------------------------Modal styling*/
+
+.modal-title {
+    font-family: "Pacifico", sans-serif;
+    font-size: 25px;
+    margin: 10px 5px;
+}
+
+.modal-content {
+    background-color: #90ee90;
+    text-shadow: -3px 2px 0.5px #ffefd5;
+    color: #777;
+}
+
+.modal-footer .btn-danger,
+.btn-info {
+    margin-right: 20px;
+}
+
+.modal-body {
+    padding: 0 15px 0 15px;
+    top: 5px;
+    bottom: 0;
+    margin-top: 10px;
+}
+
+
 /*----------------------------------------footer*/
 
 .footer {
     background-color: rgba(100, 170, 80, .5);
-    margin: 15px 2px 15px 0;
-    padding-top: 15px;
+    padding-top: 25px;
+    margin: 40px 5px 0px 0px;
+    text-align: center;
+}
+
+.social-links {
+    list-style: none;
+    padding-right: 25px;
+}
+
+.social-links li a {
+    text-decoration: none;
+    font-family: "Pacifico", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #008000;
+}
+
+.social-links li a:hover {
+    background-color: #777;
+    color: #90ee90;
+    border-radius: 30%;
+}
+
+.social-links li i{
+    font-size: 30px;
+    height: 45px;
+    width: 45px;
+}
+.social-title {
+    word-break: keep-all;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 30px;
+    font-family: "Courgette", sans-serif;
+    color: #9400d3;
+    border-radius: 20%;
+    background-color: rgba(144, 238, 144, 0.4);
 }
