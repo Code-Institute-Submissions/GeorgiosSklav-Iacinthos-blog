@@ -14,16 +14,26 @@ h1 {
     font-weight: 700;
     font-size: 45px;
     color: #800000;
-    margin: 20px;
+    margin-top: 35px;
+    padding-top: 25px;
 }
-.heading{
+
+.heading {
     margin: 25px;
 }
+
 .capitalise {
     text-transform: capitalize;
 }
 
 /*------------------------------------------------Navbar*/
+
+.navbar {
+    display: flex;
+      word-break: keep-all;
+      margin-top: 25px;
+      margin-bottom: 25px;
+}
 
 .navbar-light {
     font-family: 'Courgette', sans-serif;
@@ -32,8 +42,8 @@ h1 {
 }
 
 .nav-link {
-    margin-right: 25px;
-    margin-left: 25px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .nav-link:hover {
@@ -69,7 +79,14 @@ h1 {
     background-color: #90ee90;
     border-radius: 30px;
 }
-
+.fa-download {
+    margin-right: 2px;
+    margin-left: 2px;
+}
+.fa-download:hover{
+    color: #90ee90;
+}
+/*------------------------------------------Media queries*/
 
 @media (max-width: 300px) {
     .ml-auto:hover {
@@ -90,7 +107,6 @@ h1 {
     .social-title {
         font-size: 30px;
     }
-
 }
 
 @media (max-width: 3800px) {
@@ -102,12 +118,12 @@ h1 {
         background-color: #777;
         color: #90ee90;
     }
-    .navbar-expand-sm {
-        flex-flow: row wrap;
-        justify-content: flex-start;
+
+    .col-lg-3 {
+        flex: 30%;
+        max-width: 100%;
     }
 }
-
 
 /*------------------------------------------------Homepage*/
 
@@ -130,8 +146,6 @@ h1 {
     border-radius: 50%;
 }
 
-
-
 /*--------------------------------------------texts,p*/
 
 .container-title {
@@ -143,8 +157,8 @@ h1 {
 
 .container-title i {
     font-size: 30px;
-    padding: 5px;
-    margin: 5px;
+    padding: 15px;
+    margin: 15px;
 }
 
 .dog-name {
@@ -172,22 +186,13 @@ h1 {
 }
 
 #frame {
-    border: 2px outset  #90ee90;
+    border: 2px outset #90ee90;
     font-size: 25px;
     letter-spacing: 2px;
     margin-top: 45px;
-    margin-bottom: 45px;
-    padding: 35px;
-    
-}
+    margin-bottom: 100px;
+    padding: 10px;
 
-/*===============================border-line*/
-
-.end {
-    height: 5px;
-    width: 80vw;
-    border: 0;
-    background-color: #fff;
 }
 
 /*----------------------------------------newsletter button*/
@@ -197,7 +202,7 @@ h1 {
     font-family: "Pacifico", sans-serif;
     font-size: 20px;
     letter-spacing: 2px;
-    margin: 20px 25px;
+    margin: 40px 25px;
     padding-left: 4px;
     border-radius: 50px;
 }
@@ -237,16 +242,32 @@ h1 {
 /*----------------------------------------footer*/
 
 .footer {
-    border: 3px inset  #90ee90;
+    display: inline-block;
+    border: 3px inset #90ee90;
     background-color: rgba(100, 170, 80, .5);
     padding-top: 25px;
     margin: 40px 5px 0px 0px;
     text-align: center;
 }
 
+.contacts .social-title {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: "Courgette", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #9400d3;
+}
+
 .social-links {
     list-style: none;
     padding-right: 25px;
+    font-family: "Pacifico", sans-serif;
+    color: #008000;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
 }
 
 .social-links li a {
