@@ -16,17 +16,17 @@
     <header class="container">
         <div class="row align-items-start homepage">
             <a href="index.html" class="col-12 logo">
-                <h1>Welcome to Iacinthos miniature poodles Home-page</h1>
+                <h1>Got any requests...?</h1>
             </a>
         </div>
         <nav class="navbar navbar-light navbar-expand-sm">
-            <a href="index.html" class="navbar-brand"><i class="fa fa-home"></i>Iacinthos</a>
+            <a href="index.html" class="navbar-brand"><i class="fa fa-wpforms"></i>Enquiries</a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="Toggle navigation">
             <span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mt-auto mt-2 mt-lg-0">
                     <li class="nav-item item2 mr-2"><a class="nav-link" href="about-them.html">About Them</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="request-form.html">Enquiries</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="index.html">Iacinthos</a></li>
                     <li class="nav-item dropdown">
                         <div class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Certificates</div>
@@ -42,62 +42,66 @@
     <!----------------------------------------main-body-->
     <main>
         <div class="jumbotron-fluid about" id="frame">
-            <div class="about">
-                <h3 class="about-title">Who are We?</h3>
-                <p>We are passionate and dedicated, miniature-poodle breeders who can really appreciate and understand the affectionate relationship between humans and our little canine-friends.</p>
+            <section class="container-fluid">
+                <div class="row about">
+                    <div class="col">
+                        <h3 class="about-title contact-heading text-center">Would love to hear from you....</h3>
+                        <p class="contact capitalise">Are you interested in viewing our beautiful pups?Please fill up the form below and let us know!</p>
+                        <div class="center-form">
+                            <form>
+                                <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
+                                <input type="email" name="email" id="emailaddress" class="form-control" placeholder="E-mail" required/>
+                                <select class="form-control control">
+                                    <option>Request a viewing</option>
+                                    <option>Litter enquiries</option>
+                                    <option>Other</option>
+                                    </select>
+                                <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Describe Your Request" required></textarea>
+                                <div class="form-row text-center">
+                                    <div class="col">
+                                        <button type="submit" class="btn btn-secondary">Enquire</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+            </section>
             </div>
-
-            <div class="container">
-                <div class="row introduction">
-                    <div class="col-12 container-title capitalise">
-                        <h4><i class="fa fa-paw" aria-hidden="true"></i>Meet Iacinthos's furry stars:<i class="fa fa-paw" aria-hidden="true"></i></h4>
-                    </div>
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-6 offset-md-0 col-md-6">
-                        <h5 class="dog-name">Rhea</h5>
-                        <img src="./Media/selene.jpg" class="img-50">
-                    </div>
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-6 offset-md-0 col-md-6">
-                        <h5 class="dog-name">Selene</h5>
-                        <img src="./Media/forest.jpg" class="img-50">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <!------------------------------------------------ Modal -->
-        <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">
+            <hr>
+            <!------------------------------------------------ Modal -->
+            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">
   Join our newsletter for all the latest pup-dates!
 </button>
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Join our family with a flick of your paw!</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Join our family with a flick of your paw!</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                      <span aria-hidden="true">&times;</span>
         </button>
-                    </div>
-                    <div class="modal-body">
-                        <form class="modal-newsletter">
-                            <div class="form-group ">
-                                <input type="email" class="form-control" id="InputEmail2" aria-describedby="emailHelp" placeholder="Your Woof-mail....">
-                            </div>
-                            <div class="form-group">
-                                <input type="password" class="form-control" id="InputPassword2" placeholder="....and a Woof-password">
-                            </div>
-                            <div class="form-group form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="Check1">Remember me</label>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-info">Subscribe</button>
+                        </div>
+                        <div class="modal-body">
+                            <form class="modal-newsletter">
+                                <div class="form-group ">
+                                    <input type="email" class="form-control" id="InputEmail2" aria-describedby="emailHelp" placeholder="Your Woof-mail....">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="InputPassword2" placeholder="....and a Woof-password">
+                                </div>
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="Check1">Remember me</label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-info">Subscribe</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </main>
 
     <!--------------------------------------------------footer-->

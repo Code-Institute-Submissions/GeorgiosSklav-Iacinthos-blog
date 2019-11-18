@@ -3,8 +3,9 @@
 /*------------------------------------------------body background*/
 
 body {
-    background-image: url("./Media/paws.jpg");
-    background-size: 40%;
+    background-image: url("./Media/footprints.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
     line-height: 2.5;
     text-align: center;
 }
@@ -13,8 +14,10 @@ h1 {
     font-family: "Courgette", sans-serif;
     font-weight: 700;
     font-size: 45px;
-    color: #800000;
+    color: #f4f4f4;
+    text-shadow: -1px 2px 5px #2f4f4f;
     margin-top: 35px;
+    margin-bottom: 5px;
     padding-top: 25px;
 }
 
@@ -29,16 +32,18 @@ h1 {
 /*------------------------------------------------Navbar*/
 
 .navbar {
-    display: flex;
-      word-break: keep-all;
-      margin-top: 25px;
-      margin-bottom: 25px;
+    word-wrap: normal;
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
 
 .navbar-light {
     font-family: 'Courgette', sans-serif;
     font-weight: 600;
     font-size: 25px;
+    color: #00008b;
+    text-shadow: 0px 2px 3px #f8f8ff;
+
 }
 
 .nav-link {
@@ -48,7 +53,7 @@ h1 {
 
 .nav-link:hover {
     background-color: #90ee90;
-    border-radius: 30%;
+    border-radius: 50%;
 }
 
 .dropdown-menu {
@@ -56,6 +61,8 @@ h1 {
     font-weight: 600;
     font-size: 20px;
     border-radius: 10%;
+    margin: 0;
+    padding: 2px;
 }
 
 .dropdown-menu ul li:hover {
@@ -75,17 +82,25 @@ h1 {
     color: #777;
 }
 
+.navbar-brand {
+    font-size: 30px;
+
+}
+
 .navbar-brand:hover {
     background-color: #90ee90;
-    border-radius: 30px;
+    border-radius: 50%;
 }
+
 .fa-download {
     margin-right: 2px;
     margin-left: 2px;
 }
-.fa-download:hover{
+
+.fa-download:hover {
     color: #90ee90;
 }
+
 /*------------------------------------------Media queries*/
 
 @media (max-width: 300px) {
@@ -152,7 +167,8 @@ h1 {
     text-align: center;
     margin: 35px;
     font-family: "Courgette", sans-serif;
-    color: #9400d3;
+    color: #00ffff;
+    text-shadow: -1px 2px 5px #2f4f4f;
 }
 
 .container-title i {
@@ -166,8 +182,7 @@ h1 {
     font-weight: 700;
     font-size: 32px;
     margin-left: 25px;
-    text-shadow: -3px 2px 0.5px #ffefd5;
-
+    text-shadow: -3px 2px 5px #191970;
 }
 
 /*----------------------------------------about us section*/
@@ -176,23 +191,22 @@ h1 {
     margin: 25px;
     font-family: "Pacifico", sans-serif;
     font-size: 30px;
-    font-weight: 500;
-    letter-spacing: 2px;
-    color: #008000;
+    letter-spacing: 1px;
+    color: #f4f4f8;
+    text-shadow: -1px 2px 3px #2f4f4f;
 }
-
-.about-title {
-    text-shadow: -3px 2px 0.5px #ffefd5;
+.about .about-title {
+    color: #f8f8ff;
+    text-shadow: -3px 2px 2px #00008b;
 }
 
 #frame {
-    border: 2px outset #90ee90;
+    border: 2px outset #777;
     font-size: 25px;
-    letter-spacing: 2px;
     margin-top: 45px;
     margin-bottom: 100px;
     padding: 10px;
-
+    font-weight: lighter;
 }
 
 /*----------------------------------------newsletter button*/
@@ -277,6 +291,7 @@ h1 {
     font-weight: 400;
     letter-spacing: 2px;
     color: #008000;
+    text-shadow: 1px 2px 1px #c0c0c0;
 }
 
 .social-links li a:hover {
@@ -300,4 +315,38 @@ h1 {
     color: #9400d3;
     border-radius: 20%;
     background-color: rgba(144, 238, 144, 0.4);
+}
+
+.contact-heading {
+    font-family: "Courgette", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    font-size: 20px;
+    background-color: #90ee90;
+}
+
+.control {
+    background-color: #90ee90;
+}
+
+.center-form {
+    padding: 15px 5px 10px;
+    margin: 15px auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-bottom: 20px;
+    margin-top: 13px;
+    color: #90ee90;
+    background-color: #777;
+}
+
+button[type="submit"]:hover {
+    background-color: #90ee90;
+    color: #777;
 }
