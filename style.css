@@ -152,6 +152,27 @@ h1 {
     width: 90%;
 }
 
+.img-10 {
+    float: left;
+    width: 15%;
+    border-radius: 50%;
+    border: groove #777;
+}
+
+.img-20 {
+    float: right;
+    width: 20%;
+    border-radius: 50%;
+    border: groove #777;
+    margin: 2px;
+}
+
+.img-30 {
+    float: left;
+    width: 30%;
+    border: groove #777;
+    margin: 2px;
+}
 
 .img-50 {
     margin-left: 25px;
@@ -189,24 +210,26 @@ h1 {
 
 .about {
     margin: 25px;
-    font-family: "Pacifico", sans-serif;
-    font-size: 30px;
-    letter-spacing: 1px;
+    font-family: "Courgette", sans-serif;
+    font-size: 33px;
     color: #f4f4f8;
     text-shadow: -1px 2px 3px #2f4f4f;
 }
+
 .about .about-title {
     color: #f8f8ff;
     text-shadow: -3px 2px 2px #00008b;
+    font-size: 36px;
+    padding: 5px 2px;
 }
 
 #frame {
     border: 2px outset #777;
-    font-size: 25px;
+    font-size: 33px;
     margin-top: 45px;
     margin-bottom: 100px;
     padding: 10px;
-    font-weight: lighter;
+    font-weight: 200;
 }
 
 /*----------------------------------------newsletter button*/
@@ -265,8 +288,6 @@ h1 {
 }
 
 .contacts .social-title {
-    text-transform: capitalize;
-    text-decoration: none;
     font-family: "Courgette", sans-serif;
     font-size: 30px;
     font-weight: 400;
@@ -274,24 +295,28 @@ h1 {
     color: #9400d3;
 }
 
+
 .social-links {
     list-style: none;
     padding-right: 25px;
     font-family: "Pacifico", sans-serif;
-    color: #008000;
+    color: #fff;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 300;
     letter-spacing: 2px;
+    text-shadow: -1px 1px 4px #000;
 }
 
 .social-links li a {
     text-decoration: none;
     font-family: "Pacifico", sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 400;
     letter-spacing: 2px;
-    color: #008000;
-    text-shadow: 1px 2px 1px #c0c0c0;
+    color: /*#008000*/
+    #fff;
+    text-shadow: -1px 1px 4px #000;
+    /*text-shadow: 1px 2px 1px #c0c0c0;*/
 }
 
 .social-links li a:hover {
@@ -336,7 +361,7 @@ h1 {
 .center-form {
     padding: 15px 5px 10px;
     margin: 15px auto;
-    max-width: 70%;
+    max-width: 80%;
 }
 
 button[type="submit"] {

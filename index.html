@@ -5,14 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css " integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T " crossorigin="anonymous ">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css " integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T " crossorigin="anonymous">
     <title>Iacinthos mini Poodles</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 
 <body>
-    <!--------------------------------------------------------Header-->
+    
+    <!--Header-->
+    
     <header class="container">
         <div class="row align-items-start homepage">
             <a href="index.html" class="col-12 logo">
@@ -31,15 +33,17 @@
                         <div class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Certificates</div>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="certificate.html"><i class="fa fa-download"></i>Kennel Club</a>
-                            <a class="dropdown-item" href="lineage.html"><i class="fa fa-download"></i>Blood-Lineage</a>
+                            <a class="dropdown-item" target="_blank" href="./Media/certificate.pdf"><i class="fa fa-download"></i>Kennel Club</a>
+                            <a class="dropdown-item" target="_blank" href="./Media/lineage.pdf"><i class="fa fa-download"></i>Blood-Lineage</a>
                         </div>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
-    <!----------------------------------------main-body-->
+
+    <!--main-body-->
+
     <main>
         <div class="jumbotron-fluid about" id="frame">
             <div class="about">
@@ -54,17 +58,19 @@
                     </div>
                     <div class="col-10 offset-1 offset-sm-0 col-sm-6 offset-md-0 col-md-6">
                         <h5 class="dog-name">Rhea</h5>
-                        <img src="./Media/selene.jpg" class="img-50">
+                        <img src="./Media/selene.jpg" class="img-50" alt="dog-white">
                     </div>
                     <div class="col-10 offset-1 offset-sm-0 col-sm-6 offset-md-0 col-md-6">
                         <h5 class="dog-name">Selene</h5>
-                        <img src="./Media/forest.jpg" class="img-50">
+                        <img src="./Media/forest.jpg" class="img-50" alt="dog-brown">
                     </div>
                 </div>
             </div>
         </div>
         <hr>
-        <!------------------------------------------------ Modal -->
+
+        <!--Modal-->
+
         <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">
   Join our newsletter for all the latest pup-dates!
 </button>
@@ -80,13 +86,13 @@
                     <div class="modal-body">
                         <form class="modal-newsletter">
                             <div class="form-group ">
-                                <input type="email" class="form-control" id="InputEmail2" aria-describedby="emailHelp" placeholder="Your Woof-mail....">
+                                <input type="email" class="form-control" id="InputEmail2" aria-describedby="InputEmail2" placeholder="Your Woof-mail....">
                             </div>
                             <div class="form-group">
                                 <input type="password" class="form-control" id="InputPassword2" placeholder="....and a Woof-password">
                             </div>
                             <div class="form-group form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <input type="checkbox" class="form-check-input" id="Check1">
                                 <label class="form-check-label" for="Check1">Remember me</label>
                             </div>
                         </form>
@@ -100,7 +106,7 @@
         </div>
     </main>
 
-    <!--------------------------------------------------footer-->
+    <!--footer-->
 
     <footer class="container-fluid footer">
         <div class="row align-items-end">

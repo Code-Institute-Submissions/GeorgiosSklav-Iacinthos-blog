@@ -5,17 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css " integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T " crossorigin="anonymous ">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css " integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T " crossorigin="anonymous">
     <title>Iacinthos mini Poodles</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 
 <body>
-    <!--------------------------------------------------------Header-->
+
+    <!--Header-->
+
     <header class="container">
         <div class="row align-items-start homepage">
-            <a href="index.html" class="col-12 logo">
+            <a href="request-form.html" class="col-12 logo">
                 <h1>Got any requests...?</h1>
             </a>
         </div>
@@ -31,15 +33,17 @@
                         <div class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Certificates</div>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="certificate.html"><i class="fa fa-download"></i>Kennel Club</a>
-                            <a class="dropdown-item" href="lineage.html"><i class="fa fa-download"></i>Blood-Lineage</a>
+                            <a class="dropdown-item" target="_blank" href="./Media/certificate.pdf"><i class="fa fa-download"></i>Kennel Club</a>
+                            <a class="dropdown-item" target="_blank" href="./Media/lineage.pdf"><i class="fa fa-download"></i>Blood-Lineage</a>
                         </div>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
-    <!----------------------------------------main-body-->
+
+    <!--main-body-->
+
     <main>
         <div class="jumbotron-fluid about" id="frame">
             <section class="container-fluid">
@@ -50,13 +54,14 @@
                         <div class="center-form">
                             <form>
                                 <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
+                                <input type="text" name="number" id="number" class="form-control" placeholder="Phone number" required/>
                                 <input type="email" name="email" id="emailaddress" class="form-control" placeholder="E-mail" required/>
                                 <select class="form-control control">
                                     <option>Request a viewing</option>
                                     <option>Litter enquiries</option>
                                     <option>Other</option>
                                     </select>
-                                <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Describe Your Request" required></textarea>
+                                <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Write us a few words" required></textarea>
                                 <div class="form-row text-center">
                                     <div class="col">
                                         <button type="submit" class="btn btn-secondary">Enquire</button>
@@ -65,46 +70,49 @@
                             </form>
                         </div>
                     </div>
+                </div>
             </section>
-            </div>
-            <hr>
-            <!------------------------------------------------ Modal -->
-            <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">
+        </div>
+        <hr>
+
+        <!--Modal-->
+
+        <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">
   Join our newsletter for all the latest pup-dates!
 </button>
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Join our family with a flick of your paw!</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Join our family with a flick of your paw!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                      <span aria-hidden="true">&times;</span>
         </button>
-                        </div>
-                        <div class="modal-body">
-                            <form class="modal-newsletter">
-                                <div class="form-group ">
-                                    <input type="email" class="form-control" id="InputEmail2" aria-describedby="emailHelp" placeholder="Your Woof-mail....">
-                                </div>
-                                <div class="form-group">
-                                    <input type="password" class="form-control" id="InputPassword2" placeholder="....and a Woof-password">
-                                </div>
-                                <div class="form-group form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="Check1">Remember me</label>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-info">Subscribe</button>
-                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <form class="modal-newsletter">
+                            <div class="form-group ">
+                                <input type="email" class="form-control" id="InputEmail2" aria-describedby="InputEmail2" placeholder="Your Woof-mail....">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="InputPassword2" placeholder="....and a Woof-password">
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="Check1">
+                                <label class="form-check-label" for="Check1">Remember me</label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-info">Subscribe</button>
                     </div>
                 </div>
             </div>
+        </div>
     </main>
 
-    <!--------------------------------------------------footer-->
+    <!--footer-->
 
     <footer class="container-fluid footer">
         <div class="row align-items-end">
