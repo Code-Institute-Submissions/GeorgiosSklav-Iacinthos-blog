@@ -61,18 +61,24 @@ to keep them up to date including any upcoming pups.
    - Used extensively for the styling of the elements
 - [Font Awesome](https://fontawesome.com/)
   - Used for all the ```icons```
+  - 
 ### Testing
+
 The prototypes were made in mockups by using [Balsamiq Mockups 3](https://balsamiq.com/wireframes/desktop/docs/overview/)
 (which can be found in ./Media/mockup-iacinthos1.pdf)
 
 Detailed testing was achieved using [GoogleChrome's](https://www.google.com/chrome/) inspect tools for debugging.
 While doing so discovered alterations in **media queries** so had to set them anew and a 503 error which is still present but doesn't affect the way the pages run.
-Aslo, all the links and navigation were tested and aprooved by the breeder Mr. N.Davis as:
+Additionaly, all the links and navigation were tested and aprooved by the breeder Mr. N.Davis and myself (both visually impaired) as:
 > Efficient and easy to read.
 
-Furthermore, the website pages are responsive to different screen sizes and **WOULD NOT** disfigure any of it's content other than an _acceptable manner_ while changing devices.
+During the last mentor session,discovered a syntax error <aria-controls="Toggler navigation"> which was included within *Bootstrap's* ```navbar``` component which has been fixed.
+
+Furthermore, the website pages are responsive to different screen sizes and **would not** disfigure any of it's content other than an _acceptable manner_ while changing devices and lastly it is accesible and intuitive for every user regardless their age.
+ 
 ### Deployment
 The project was ```git pushed``` on [GitHub](https://github.com/) through the ```git``` repository on *Cloud9*  and using the **GitHub pages** to create the space on the web.
+For each major change ,there has been a descriptive ```commit``` for system control and inspect for future references accesible to every developer.
 GitHub URL: https://github.com/GeorgiosSklav/Iacinthos-blog.git
 ## Credits
 Paragraphs were created from snippets on news atrcles from [Google](https://www.google.co.uk/)
