@@ -62,8 +62,10 @@ to keep them up to date including any upcoming pups.
 - [Font Awesome](https://fontawesome.com/)
   - Used for all the ```icons```
 ### Testing
+The prototypes were made in mockups by using [Balsamiq Mockups 3](https://balsamiq.com/wireframes/desktop/docs/overview/)
+(which can be found in ./Media/mockup-iacinthos1.pdf)
 
-Was achieved using [GoogleChrome's](https://www.google.com/chrome/) inspect tools for debugging.
+Detailed testing was achieved using [GoogleChrome's](https://www.google.com/chrome/) inspect tools for debugging.
 While doing so discovered alterations in **media queries** so had to set them anew and a 503 error which is still present but doesn't affect the way the pages run.
 Aslo, all the links and navigation were tested and aprooved by the breeder Mr. N.Davis as:
 > Efficient and easy to read.
@@ -71,7 +73,7 @@ Aslo, all the links and navigation were tested and aprooved by the breeder Mr. N
 Furthermore, the website pages are responsive to different screen sizes and **WOULD NOT** disfigure any of it's content other than an _acceptable manner_ while changing devices.
 ### Deployment
 The project was ```git pushed``` on [GitHub](https://github.com/) through the ```git``` repository on *Cloud9*  and using the **GitHub pages** to create the space on the web.
-
+GitHub URL: https://github.com/GeorgiosSklav/Iacinthos-blog.git
 ## Credits
 Paragraphs were created from snippets on news atrcles from [Google](https://www.google.co.uk/)
 and downloadable certificates were provided by the *breeder*
