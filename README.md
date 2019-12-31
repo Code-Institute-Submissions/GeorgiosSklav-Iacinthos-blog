@@ -1,6 +1,6 @@
 # Iacinthos miniature poodles blog
 
-This is a website which desighned is for the above breeder (Iacinthos)
+This is a website desighned for the above breeder (Iacinthos)
 who is a home-based breeder of pedigree mini poodles.
 
 
@@ -30,7 +30,7 @@ to keep them up to date including any upcoming pups.
 ***About them***
 - On the main body there are information about:
    -  _general behaviour_
-   -  _eating & trainig habits_ of the specific breed
+   -  _eating & training habits_ of the specific breed
 
 ***Request form***
 - The user can fill up their _details_, choose the topping they enquire for and in a short paragraph describe the actual request.*
@@ -61,11 +61,10 @@ to keep them up to date including any upcoming pups.
    - Used extensively for the styling of the elements
 - [Font Awesome](https://fontawesome.com/)
   - Used for all the ```icons```
-  - 
 ### Testing
 
 The prototypes were made in mockups by using [Balsamiq Mockups 3](https://balsamiq.com/wireframes/desktop/docs/overview/)
-(which can be found in ./Media/mockup-iacinthos1.pdf)
+(which can be found in ./Media/sketches/mockup-iacinthos1.pdf)
 
 Detailed testing was achieved using [GoogleChrome's](https://www.google.com/chrome/) inspect tools for debugging.
 While doing so discovered alterations in **media queries** so had to set them anew and a 503 error which is still present but doesn't affect the way the pages run.
@@ -93,4 +92,4 @@ From the breeder **Mr.Davis** in concern of the approach.
 Colors inspired from [Mozilla.developer](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value).
 Color implementation, ```img``` styling and contrast by me.
 *Webpage layout* and *forms* inspired by [Code Institute](https://codeinstitute.net/5-day-coding-challenge/?ads_cmpid=1578649861&ads_adid=62188641240&ads_matchtype=e&ads_network=g&ads_creative=342474940518&utm_term=code%20institute&ads_targetid=kwd-319867646331&utm_source=google&utm_medium=cpc&gclid=CjwKCAiAws7uBRAkEiwAMlbZjj44y4OVtCrgHc16bK15OSlOffVm9ylC_lPoREqIjA_lGtLgJeEiGRoCZjYQAvD_BwE)
-on a previous project **_'Whiskey drop'_**.
+from a previous project **_'Whiskey drop'_**.
